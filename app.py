@@ -117,7 +117,7 @@ st.subheader("Portfolio web personnel")
 st.write("*Streamlit - Python - 2026*")
 st.write("""
 Réalisation de ce site portfolio pour présenter mon parcours et mes compétences
-aux recruteurs. Application multi-pages avec Streamlit.
+aux recruteurs.
 """)
 st.write("---")
 
