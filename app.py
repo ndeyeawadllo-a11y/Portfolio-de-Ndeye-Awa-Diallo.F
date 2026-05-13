@@ -49,21 +49,13 @@ with col3:
 
 st.title("Ma formation")
 
-st.subheader("2025 - 2026 : Licence 2 (en cours)")
-st.write("Sciences Agricoles, spécialité Sciences Alimentaires et Nutrition")
-st.write("*Université Amadou Mahtar Mbow, Dakar*")
-
-st.write("")
-
-st.subheader("2024 - 2025 : Licence 1")
+st.subheader("2024 - 2027 : Licence")
 st.write("Sciences Agricoles, spécialité Sciences Alimentaires et Nutrition")
 st.write("*Université Amadou Mahtar Mbow, Dakar*")
 
 st.write("")
 
 st.subheader("2023 - 2024 : Baccalauréat scientifique")
-st.write("*Lycée Saidou Nourou Tall, Dakar*")
-st.write("Mention Assez Bien - Série S")
 
 
 st.title("Mon expérience")
@@ -118,12 +110,6 @@ with col2:
     st.write("- Proactivité")
     st.write("- Esprit d'initiative")
 
-    st.subheader("Langues")
-    st.write("Français (langue maternelle)")
-    st.progress(98, text="98%")
-    st.write("Anglais (intermédiaire)")
-    st.progress(94, text="94%")
-
 
 st.title("Mes projets")
 
@@ -150,22 +136,3 @@ st.write("""
 Étude de la composition nutritionnelle de produits locaux : dosage des
 protéines, glucides et lipides, et comparaison aux apports recommandés.
 """)
-
-
-st.title("Mes centres d'intérêt")
-
-col1, col2 = st.columns(2)
-with col1:
-    st.subheader("Cuisine")
-    st.write("""
-    J'aime cuisiner, surtout les plats sénégalais et internationaux.
-    La cuisine est un peu comme un laboratoire : on mélange des ingrédients
-    pour obtenir un résultat qui a du goût. Cela me lie à mes études.
-    """)
-with col2:
-    st.subheader("Peinture")
-    st.write("""
-    La peinture est mon moment de détente. Elle développe ma créativité,
-    ma patience et mon sens du détail, des qualités que je retrouve aussi
-    dans mon travail scientifique.
-    """)
